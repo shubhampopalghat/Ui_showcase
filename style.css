@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
+    /* overflow-wrap:unset; */
+    /* overflow-y: hidden;  */
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family:Jacksilver;
+    src: url(assets/Fonts/Jacksilver.otf);
+  }
+
+  @font-face {
+    font-family:Gemstone;
+    src: url(assets/Fonts/Gemstone.ttf);
+  }
+
+main {
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec1 , .sec2 , .sec3 , .sec4 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    background-image: linear-gradient(90deg, #4f4f4f2e 1px, transparent 0), linear-gradient(180deg, #8080800a 1px, transparent 0);
+    background-size: 14px 24px; 
+
+    width: 100vw;
+    color: #ede8e4;
+}
+
+nav {
+    background: linear-gradient(to bottom, rgba(21, 19, 27, 1), rgba(21, 19, 27, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1em);
+    -webkit-backdrop-filter: blur(1em);
+    z-index: 10;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 50px;
+    position: relative;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+/* .content button {
+    color: #ede8e4;
+    background-color: black;
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid #ede8e4;
+    transition: all 0.4s 0.1ms ease-in-out;
+}
+
+.content button:hover {
+    background-color: #ede8e4;
+    color: black;
+
+} */
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+
+iframe {
+    border-radius: 30px;
+    margin-top: 5vh;
+}
+
+.frame1 {
+    margin-top: 15vh;
+}
